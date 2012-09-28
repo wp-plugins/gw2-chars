@@ -1,0 +1,36 @@
+.gw2user {
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	color: #cccccc;
+
+	background: #222222; /* Old browsers */
+	background: -moz-linear-gradient(top,  #222222 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222222), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #222222 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #222222 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #222222 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #222222 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.gw2row {
+	clear: both;
+	overflow: hidden;
+}
+
+.gw2odd {
+}
+
+.gw2even {
+	background-color: #eee;
+}
+
+.gw2pic {
+	width: 160px;
+	float: left;
+}
+
+.gw2desc {
+	float: left;
+}

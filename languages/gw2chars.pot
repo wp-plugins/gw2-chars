@@ -1,0 +1,249 @@
+# Copyright (C) 2012 Guild Wars 2 Character List
+# This file is distributed under the same license as the Guild Wars 2 Character List package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Guild Wars 2 Character List 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gw2-chars\n"
+"POT-Creation-Date: 2012-09-26 08:07:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: gw2-chars.php:27 gw2-chars.php:345
+msgid "Manage my Characters"
+msgstr ""
+
+#: gw2-chars.php:27
+msgid "My Chars"
+msgstr ""
+
+#: gw2-chars.php:137 gw2-chars.php:419
+msgid "and"
+msgstr ""
+
+#: gw2-chars.php:140 gw2-chars.php:421
+msgid "no crafting skills"
+msgstr ""
+
+#: gw2-chars.php:187 gw2-chars.php:250
+msgid "Name can't be left blank."
+msgstr ""
+
+#: gw2-chars.php:211
+msgid "Character added."
+msgstr ""
+
+#: gw2-chars.php:288
+msgid "Character edited."
+msgstr ""
+
+#: gw2-chars.php:310
+msgid "Nothing to delete."
+msgstr ""
+
+#: gw2-chars.php:334
+msgid "Deleted selected Characters."
+msgstr ""
+
+#: gw2-chars.php:346
+msgid ""
+"On this page you can enter all your characters for the list of all guild "
+"members."
+msgstr ""
+
+#: gw2-chars.php:350
+msgid "To insert the list on a page or an article enter the shortcode %s."
+msgstr ""
+
+#: gw2-chars.php:354
+msgid "view all"
+msgstr ""
+
+#: gw2-chars.php:356
+msgid "view just mine"
+msgstr ""
+
+#: gw2-chars.php:365
+msgid "Picture"
+msgstr ""
+
+#: gw2-chars.php:366
+msgid "Details"
+msgstr ""
+
+#: gw2-chars.php:404
+msgid "User doesn't exist!"
+msgstr ""
+
+#: gw2-chars.php:427
+msgid "edit"
+msgstr ""
+
+#: gw2-chars.php:436
+msgid "Delete selected"
+msgstr ""
+
+#: gw2-chars.php:449
+msgid "Edit Character"
+msgstr ""
+
+#: gw2-chars.php:463
+msgid "Add New Character"
+msgstr ""
+
+#: gw2-chars.php:471
+msgid "Name"
+msgstr ""
+
+#: gw2-chars.php:496
+msgid "Race"
+msgstr ""
+
+#: gw2-chars.php:505
+msgid "Profession"
+msgstr ""
+
+#: gw2-chars.php:514
+msgid "First Crafting Skill"
+msgstr ""
+
+#: gw2-chars.php:523
+msgid "Second Crafting Skill"
+msgstr ""
+
+#: gw2-chars.php:532
+msgid "Upload Picture"
+msgstr ""
+
+#: gw2-chars.php:539
+msgid "delete old picture"
+msgstr ""
+
+#: gw2-chars.php:547
+msgid "Short Phrase"
+msgstr ""
+
+#: gw2-chars.php:554
+msgid "Change"
+msgstr ""
+
+#: gw2-chars.php:556
+msgid "Save"
+msgstr ""
+
+#: gw2-chars.php:626
+msgid "Asura"
+msgstr ""
+
+#: gw2-chars.php:629
+msgid "Charr"
+msgstr ""
+
+#: gw2-chars.php:632
+msgid "Human"
+msgstr ""
+
+#: gw2-chars.php:635
+msgid "Norn"
+msgstr ""
+
+#: gw2-chars.php:638
+msgid "Sylvari"
+msgstr ""
+
+#: gw2-chars.php:641
+msgid "unknown race"
+msgstr ""
+
+#: gw2-chars.php:648
+msgid "Guardian"
+msgstr ""
+
+#: gw2-chars.php:651
+msgid "Warrior"
+msgstr ""
+
+#: gw2-chars.php:654
+msgid "Engineer"
+msgstr ""
+
+#: gw2-chars.php:657
+msgid "Ranger"
+msgstr ""
+
+#: gw2-chars.php:660
+msgid "Thief"
+msgstr ""
+
+#: gw2-chars.php:663
+msgid "Elementalist"
+msgstr ""
+
+#: gw2-chars.php:666
+msgid "Mesmer"
+msgstr ""
+
+#: gw2-chars.php:669
+msgid "Necromancer"
+msgstr ""
+
+#: gw2-chars.php:672
+msgid "unknown profession"
+msgstr ""
+
+#: gw2-chars.php:679
+msgid "I don't craft"
+msgstr ""
+
+#: gw2-chars.php:682
+msgid "Armorsmith"
+msgstr ""
+
+#: gw2-chars.php:685
+msgid "Artificer"
+msgstr ""
+
+#: gw2-chars.php:688
+msgid "Chef"
+msgstr ""
+
+#: gw2-chars.php:691
+msgid "Huntsman"
+msgstr ""
+
+#: gw2-chars.php:694
+msgid "Jeweler"
+msgstr ""
+
+#: gw2-chars.php:697
+msgid "Leatherworker"
+msgstr ""
+
+#: gw2-chars.php:700
+msgid "Tailor"
+msgstr ""
+
+#: gw2-chars.php:703
+msgid "Weaponsmith"
+msgstr ""
+
+#: gw2-chars.php:706
+msgid "unknown crafting skill"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Guild Wars 2 Character List"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Users can manage their own Guild Wars 2 characters. A list of all characters "
+"can be integrated in any post or page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arne"
+msgstr ""

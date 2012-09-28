@@ -1,0 +1,265 @@
+# Copyright (C) 2012 Guild Wars 2 Character
+# This file is distributed under the same license as the Guild Wars 2 Character package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Guild-Wars-2-Char-Liste 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gw2-chars\n"
+"POT-Creation-Date: 2012-09-26 08:07:18+00:00\n"
+"PO-Revision-Date: 2012-09-26 10:11+0100\n"
+"Last-Translator: urs <ars@urs.de>\n"
+"Language-Team: Arne\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gw2-chars.php:27 gw2-chars.php:345
+msgid "Manage my Characters"
+msgstr "Meine Chars verwalten"
+
+#: gw2-chars.php:27
+msgid "My Chars"
+msgstr "Meine Chars"
+
+#: gw2-chars.php:137 gw2-chars.php:419
+msgid "and"
+msgstr "und"
+
+#: gw2-chars.php:140 gw2-chars.php:421
+msgid "no crafting skills"
+msgstr "keinen Beruf"
+
+#: gw2-chars.php:187 gw2-chars.php:250
+msgid "Name can't be left blank."
+msgstr "Der Name darf nicht leer bleiben."
+
+#: gw2-chars.php:211
+msgid "Character added."
+msgstr "Char hinzugefügt."
+
+#: gw2-chars.php:288
+msgid "Character edited."
+msgstr "Char bearbeitet."
+
+#: gw2-chars.php:310
+msgid "Nothing to delete."
+msgstr "Nichts zu löschen."
+
+#: gw2-chars.php:334
+msgid "Deleted selected Characters."
+msgstr "Markierte Chars gelöscht."
+
+#: gw2-chars.php:346
+msgid ""
+"On this page you can enter all your characters for the list of all guild "
+"members."
+msgstr ""
+"Auf dieser Seite kannst Du all Deine Chars für die Gildenliste angeben."
+
+#: gw2-chars.php:350
+msgid "To insert the list on a page or an article enter the shortcode %s."
+msgstr ""
+"Um die Mitgliederliste auf einer Seite oder in einem Artikel einzufügen, "
+"nutze den Shortcode %s."
+
+#: gw2-chars.php:354
+msgid "view all"
+msgstr "alle zeigen"
+
+#: gw2-chars.php:356
+msgid "view just mine"
+msgstr "zeige nur meine"
+
+#: gw2-chars.php:365
+msgid "Picture"
+msgstr "Bild"
+
+#: gw2-chars.php:366
+msgid "Details"
+msgstr "Details"
+
+#: gw2-chars.php:404
+msgid "User doesn't exist!"
+msgstr "User existiert nicht!"
+
+#: gw2-chars.php:427
+msgid "edit"
+msgstr "bearbeiten"
+
+#: gw2-chars.php:436
+msgid "Delete selected"
+msgstr "Markierte löschen"
+
+#: gw2-chars.php:449
+msgid "Edit Character"
+msgstr "Char bearbeiten"
+
+#: gw2-chars.php:463
+msgid "Add New Character"
+msgstr "neuen Char hinzufügen"
+
+#: gw2-chars.php:471
+msgid "Name"
+msgstr "Name"
+
+#: gw2-chars.php:496
+msgid "Race"
+msgstr "Rasse"
+
+#: gw2-chars.php:505
+msgid "Profession"
+msgstr "Klasse"
+
+#: gw2-chars.php:514
+msgid "First Crafting Skill"
+msgstr "erster Beruf"
+
+#: gw2-chars.php:523
+msgid "Second Crafting Skill"
+msgstr "zweiter Beruf"
+
+#: gw2-chars.php:532
+msgid "Upload Picture"
+msgstr "Bild hochladen"
+
+#: gw2-chars.php:539
+msgid "delete old picture"
+msgstr "altes Bild löschen"
+
+#: gw2-chars.php:547
+msgid "Short Phrase"
+msgstr "kurzer Spruch"
+
+#: gw2-chars.php:554
+msgid "Change"
+msgstr "ändern"
+
+#: gw2-chars.php:556
+msgid "Save"
+msgstr "speichern"
+
+#: gw2-chars.php:626
+msgid "Asura"
+msgstr "Asura"
+
+#: gw2-chars.php:629
+msgid "Charr"
+msgstr "Charr"
+
+#: gw2-chars.php:632
+msgid "Human"
+msgstr "Mensch"
+
+#: gw2-chars.php:635
+msgid "Norn"
+msgstr "Norn"
+
+#: gw2-chars.php:638
+msgid "Sylvari"
+msgstr "Sylvari"
+
+#: gw2-chars.php:641
+msgid "unknown race"
+msgstr "unbekannte Rasse"
+
+#: gw2-chars.php:648
+msgid "Guardian"
+msgstr "Wächter"
+
+#: gw2-chars.php:651
+msgid "Warrior"
+msgstr "Krieger"
+
+#: gw2-chars.php:654
+msgid "Engineer"
+msgstr "Ingenieur"
+
+#: gw2-chars.php:657
+msgid "Ranger"
+msgstr "Waldläufer"
+
+#: gw2-chars.php:660
+msgid "Thief"
+msgstr "Dieb"
+
+#: gw2-chars.php:663
+msgid "Elementalist"
+msgstr "Elementarmagier"
+
+#: gw2-chars.php:666
+msgid "Mesmer"
+msgstr "Mesmer"
+
+#: gw2-chars.php:669
+msgid "Necromancer"
+msgstr "Nekromant"
+
+#: gw2-chars.php:672
+msgid "unknown profession"
+msgstr "unbekannte Klasse"
+
+#: gw2-chars.php:679
+msgid "I don't craft"
+msgstr "Ich habe keinen Beruf"
+
+#: gw2-chars.php:682
+msgid "Armorsmith"
+msgstr "Rüstungsschmied"
+
+#: gw2-chars.php:685
+msgid "Artificer"
+msgstr "Konstrukteur"
+
+#: gw2-chars.php:688
+msgid "Chef"
+msgstr "Küchenmeister"
+
+#: gw2-chars.php:691
+msgid "Huntsman"
+msgstr "Waidmann"
+
+#: gw2-chars.php:694
+msgid "Jeweler"
+msgstr "Juwelier"
+
+#: gw2-chars.php:697
+msgid "Leatherworker"
+msgstr "Lederer"
+
+#: gw2-chars.php:700
+msgid "Tailor"
+msgstr "Schneider"
+
+#: gw2-chars.php:703
+msgid "Weaponsmith"
+msgstr "Waffenschmied"
+
+#: gw2-chars.php:706
+msgid "unknown crafting skill"
+msgstr "unbekanner Beruf"
+
+#. Plugin Name of the plugin/theme
+msgid "Guild Wars 2 Character List"
+msgstr "Guild-Wars-2-Char-Liste"
+
+#. Description of the plugin/theme
+msgid ""
+"Users can manage their own Guild Wars 2 characters. A list of all characters "
+"can be integrated in any post or page."
+msgstr ""
+"Benutzer können ihre eigenen Guild-Wars-2-Chars verwalten. Eine Liste aller "
+"Chars kann in einer beliebigen Seite oder einem beliebigem Artikel eingefügt "
+"werden."
+
+#. Author of the plugin/theme
+msgid "Arne"
+msgstr "Arne"
+
+#~ msgid "http://www.arnenet.de/wp/gw2-chars"
+#~ msgstr "http://www.arnenet.de/wp/arne"
+
+#~ msgid "Integrates this into that and does things"
+#~ msgstr "Integriert dieses und jenes und tut Dinge"
+
+#~ msgid "http://www.arnenet.de/wp/arne"
+#~ msgstr "http://www.arnenet.de/wp/arne"
