@@ -16,7 +16,9 @@
 
 .gw2row {
 	clear: both;
-	overflow: hidden;
+	overflow: visible;
+	padding-left: 160px;
+	padding-bottom: 2px;
 }
 
 .gw2odd {
@@ -29,8 +31,14 @@
 .gw2pic {
 	width: 160px;
 	float: left;
+	position: relative;
+	margin-left: -160px;
 }
 
 .gw2desc {
 	float: left;
+}
+
+.gw2desc img {
+	vertical-align: middle;
 }

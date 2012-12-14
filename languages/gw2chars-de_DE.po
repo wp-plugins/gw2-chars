@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Guild-Wars-2-Char-Liste 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/gw2-chars\n"
-"POT-Creation-Date: 2012-09-26 08:07:18+00:00\n"
-"PO-Revision-Date: 2012-09-26 10:11+0100\n"
+"POT-Creation-Date: 2012-12-14 11:24:15+00:00\n"
+"PO-Revision-Date: 2012-12-14 12:28+0100\n"
 "Last-Translator: urs <ars@urs.de>\n"
 "Language-Team: Arne\n"
 "Language: de_DE\n"
@@ -13,228 +13,280 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: gw2-chars.php:27 gw2-chars.php:345
+#: gw2-chars.php:29 gw2-chars.php:394
 msgid "Manage my Characters"
 msgstr "Meine Chars verwalten"
 
-#: gw2-chars.php:27
+#: gw2-chars.php:29
 msgid "My Chars"
 msgstr "Meine Chars"
 
-#: gw2-chars.php:137 gw2-chars.php:419
+#: gw2-chars.php:139 gw2-chars.php:468
 msgid "and"
 msgstr "und"
 
-#: gw2-chars.php:140 gw2-chars.php:421
+#: gw2-chars.php:142 gw2-chars.php:470
 msgid "no crafting skills"
 msgstr "keinen Beruf"
 
-#: gw2-chars.php:187 gw2-chars.php:250
+#: gw2-chars.php:146
+msgid "Fractals Level"
+msgstr "Fraktal-Level"
+
+#: gw2-chars.php:150 gw2-chars.php:596
+msgid "Story Mode Completed"
+msgstr "Story-Mode abgeschlossen"
+
+#: gw2-chars.php:152 gw2-chars.php:157 gw2-chars.php:598
+msgid "Ascalonian Catacombs"
+msgstr "Katakomben von Ascalon"
+
+#: gw2-chars.php:153 gw2-chars.php:599
+msgid "Caudecus's Manor"
+msgstr "Caudecus' Anwesen"
+
+#: gw2-chars.php:154 gw2-chars.php:600
+msgid "Twilight Arbor"
+msgstr "Zwielichtgarten"
+
+#: gw2-chars.php:155 gw2-chars.php:601
+msgid "Sorrow's Embrace"
+msgstr "Umarmung der Betrübnis"
+
+#: gw2-chars.php:156 gw2-chars.php:602
+msgid "Citadel of Flame"
+msgstr "Flammenzitadelle"
+
+#: gw2-chars.php:158 gw2-chars.php:604
+msgid "Crucible of Eternity"
+msgstr "Schmelztiegel der Ewigkeit"
+
+#: gw2-chars.php:159 gw2-chars.php:605
+msgid "Arah"
+msgstr "Arah"
+
+#: gw2-chars.php:220 gw2-chars.php:295
 msgid "Name can't be left blank."
 msgstr "Der Name darf nicht leer bleiben."
 
-#: gw2-chars.php:211
+#: gw2-chars.php:244
 msgid "Character added."
 msgstr "Char hinzugefügt."
 
-#: gw2-chars.php:288
+#: gw2-chars.php:335
 msgid "Character edited."
 msgstr "Char bearbeitet."
 
-#: gw2-chars.php:310
+#: gw2-chars.php:359
 msgid "Nothing to delete."
 msgstr "Nichts zu löschen."
 
-#: gw2-chars.php:334
+#: gw2-chars.php:383
 msgid "Deleted selected Characters."
 msgstr "Markierte Chars gelöscht."
 
-#: gw2-chars.php:346
+#: gw2-chars.php:395
 msgid ""
 "On this page you can enter all your characters for the list of all guild "
 "members."
 msgstr ""
 "Auf dieser Seite kannst Du all Deine Chars für die Gildenliste angeben."
 
-#: gw2-chars.php:350
+#: gw2-chars.php:399
 msgid "To insert the list on a page or an article enter the shortcode %s."
 msgstr ""
 "Um die Mitgliederliste auf einer Seite oder in einem Artikel einzufügen, "
 "nutze den Shortcode %s."
 
-#: gw2-chars.php:354
+#: gw2-chars.php:403
 msgid "view all"
 msgstr "alle zeigen"
 
-#: gw2-chars.php:356
+#: gw2-chars.php:405
 msgid "view just mine"
 msgstr "zeige nur meine"
 
-#: gw2-chars.php:365
+#: gw2-chars.php:414
 msgid "Picture"
 msgstr "Bild"
 
-#: gw2-chars.php:366
+#: gw2-chars.php:415
 msgid "Details"
 msgstr "Details"
 
-#: gw2-chars.php:404
+#: gw2-chars.php:453
 msgid "User doesn't exist!"
 msgstr "User existiert nicht!"
 
-#: gw2-chars.php:427
+#: gw2-chars.php:475
+msgid "hasn't been doing fractals so far"
+msgstr "hat bisher keine Fraktale gemacht"
+
+#: gw2-chars.php:477
+msgid "Can enter fractals level"
+msgstr "kann Fraktale-Level betreten"
+
+#: gw2-chars.php:485
 msgid "edit"
 msgstr "bearbeiten"
 
-#: gw2-chars.php:436
+#: gw2-chars.php:494
 msgid "Delete selected"
 msgstr "Markierte löschen"
 
-#: gw2-chars.php:449
+#: gw2-chars.php:507
 msgid "Edit Character"
 msgstr "Char bearbeiten"
 
-#: gw2-chars.php:463
+#: gw2-chars.php:523
 msgid "Add New Character"
 msgstr "neuen Char hinzufügen"
 
-#: gw2-chars.php:471
+#: gw2-chars.php:531
 msgid "Name"
 msgstr "Name"
 
-#: gw2-chars.php:496
+#: gw2-chars.php:556
 msgid "Race"
 msgstr "Rasse"
 
-#: gw2-chars.php:505
+#: gw2-chars.php:565
 msgid "Profession"
 msgstr "Klasse"
 
-#: gw2-chars.php:514
+#: gw2-chars.php:574
 msgid "First Crafting Skill"
 msgstr "erster Beruf"
 
-#: gw2-chars.php:523
+#: gw2-chars.php:583
 msgid "Second Crafting Skill"
 msgstr "zweiter Beruf"
 
-#: gw2-chars.php:532
+#: gw2-chars.php:592
+msgid "Ready to do fractals level"
+msgstr "bereit für Fraktal-Level"
+
+#: gw2-chars.php:603
+msgid "Honor of the Waves"
+msgstr "Zierde der Wogen"
+
+#: gw2-chars.php:609
 msgid "Upload Picture"
 msgstr "Bild hochladen"
 
-#: gw2-chars.php:539
+#: gw2-chars.php:616
 msgid "delete old picture"
 msgstr "altes Bild löschen"
 
-#: gw2-chars.php:547
+#: gw2-chars.php:624
 msgid "Short Phrase"
 msgstr "kurzer Spruch"
 
-#: gw2-chars.php:554
+#: gw2-chars.php:631
 msgid "Change"
 msgstr "ändern"
 
-#: gw2-chars.php:556
+#: gw2-chars.php:633
 msgid "Save"
 msgstr "speichern"
 
-#: gw2-chars.php:626
+#: gw2-chars.php:705
 msgid "Asura"
 msgstr "Asura"
 
-#: gw2-chars.php:629
+#: gw2-chars.php:708
 msgid "Charr"
 msgstr "Charr"
 
-#: gw2-chars.php:632
+#: gw2-chars.php:711
 msgid "Human"
 msgstr "Mensch"
 
-#: gw2-chars.php:635
+#: gw2-chars.php:714
 msgid "Norn"
 msgstr "Norn"
 
-#: gw2-chars.php:638
+#: gw2-chars.php:717
 msgid "Sylvari"
 msgstr "Sylvari"
 
-#: gw2-chars.php:641
+#: gw2-chars.php:720
 msgid "unknown race"
 msgstr "unbekannte Rasse"
 
-#: gw2-chars.php:648
+#: gw2-chars.php:727
 msgid "Guardian"
 msgstr "Wächter"
 
-#: gw2-chars.php:651
+#: gw2-chars.php:730
 msgid "Warrior"
 msgstr "Krieger"
 
-#: gw2-chars.php:654
+#: gw2-chars.php:733
 msgid "Engineer"
 msgstr "Ingenieur"
 
-#: gw2-chars.php:657
+#: gw2-chars.php:736
 msgid "Ranger"
 msgstr "Waldläufer"
 
-#: gw2-chars.php:660
+#: gw2-chars.php:739
 msgid "Thief"
 msgstr "Dieb"
 
-#: gw2-chars.php:663
+#: gw2-chars.php:742
 msgid "Elementalist"
 msgstr "Elementarmagier"
 
-#: gw2-chars.php:666
+#: gw2-chars.php:745
 msgid "Mesmer"
 msgstr "Mesmer"
 
-#: gw2-chars.php:669
+#: gw2-chars.php:748
 msgid "Necromancer"
 msgstr "Nekromant"
 
-#: gw2-chars.php:672
+#: gw2-chars.php:751
 msgid "unknown profession"
 msgstr "unbekannte Klasse"
 
-#: gw2-chars.php:679
+#: gw2-chars.php:758
 msgid "I don't craft"
 msgstr "Ich habe keinen Beruf"
 
-#: gw2-chars.php:682
+#: gw2-chars.php:761
 msgid "Armorsmith"
 msgstr "Rüstungsschmied"
 
-#: gw2-chars.php:685
+#: gw2-chars.php:764
 msgid "Artificer"
 msgstr "Konstrukteur"
 
-#: gw2-chars.php:688
+#: gw2-chars.php:767
 msgid "Chef"
 msgstr "Küchenmeister"
 
-#: gw2-chars.php:691
+#: gw2-chars.php:770
 msgid "Huntsman"
 msgstr "Waidmann"
 
-#: gw2-chars.php:694
+#: gw2-chars.php:773
 msgid "Jeweler"
 msgstr "Juwelier"
 
-#: gw2-chars.php:697
+#: gw2-chars.php:776
 msgid "Leatherworker"
 msgstr "Lederer"
 
-#: gw2-chars.php:700
+#: gw2-chars.php:779
 msgid "Tailor"
 msgstr "Schneider"
 
-#: gw2-chars.php:703
+#: gw2-chars.php:782
 msgid "Weaponsmith"
 msgstr "Waffenschmied"
 
-#: gw2-chars.php:706
+#: gw2-chars.php:785
 msgid "unknown crafting skill"
 msgstr "unbekanner Beruf"
 

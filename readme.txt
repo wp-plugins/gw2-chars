@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=9G7Q8VJ5YVJY
 Tags: guild wars 2, char, character, game, guild
 Requires at least: 3.4
 Tested up to: 3.4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl
 
@@ -35,6 +35,10 @@ Yes, of course!
 2. Resulting list in the frontend
 
 == Changelog ==
+
+= 1.1 =
+* [add] possibility to enter the fractals level you're ready for
+* [add] possibility to specify in which dungeons you did the story mode
 
 = 1.0 =
 * first release
