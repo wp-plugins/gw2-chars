@@ -2,7 +2,7 @@
 /*
 Plugin Name: Guild Wars 2 Character List
 Description: Users can manage their own Guild Wars 2 characters. A list of all characters can be integrated in any post or page.
-Version: 1.1
+Version: 1.1.1
 Author: Arne
 License: GPL3
 */
@@ -146,17 +146,19 @@ function gw2chars_shortcode( $attributes ) {
                     $output .= ' ' . __( 'Fractals Level', 'gw2chars' ) . ': ' . $char->fractals;
                 }
                 if ( strlen($char->dungeons) > 0 ) {
-                    $output .= '<br />';
-                    $output .= __( 'Story Mode Completed', 'gw2chars' ) . ':<br />';
                     $dungeons = unserialize( $char->dungeons );
-                    if ($dungeons['ac'] == 1) $output .= '<img title="' . __( 'Ascalonian Catacombs', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/ac.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['cm'] == 1) $output .= '<img title="' . __( 'Caudecus\'s Manor', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/cm.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['ta'] == 1) $output .= '<img title="' . __( 'Twilight Arbor', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/ta.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['se'] == 1) $output .= '<img title="' . __( 'Sorrow\'s Embrace', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/se.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['cof'] == 1) $output .= '<img title="' . __( 'Citadel of Flame', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/cof.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['hotw'] == 1) $output .= '<img title="' . __( 'Ascalonian Catacombs', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/hotw.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['coe'] == 1) $output .= '<img title="' . __( 'Crucible of Eternity', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/coe.png" class="gw2chars_dungeonpic" /> ';
-                    if ($dungeons['arah'] == 1) $output .= '<img title="' . __( 'Arah', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/arah.png" class="gw2chars_dungeonpic" /> ';
+                    if ( sizeof( $dungeons ) > 0 ) {
+                        $output .= '<br />';
+                        $output .= __( 'Story Mode Completed', 'gw2chars' ) . ':<br />';
+                        if ($dungeons['ac'] == 1) $output .= '<img title="' . __( 'Ascalonian Catacombs', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/ac.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['cm'] == 1) $output .= '<img title="' . __( 'Caudecus\'s Manor', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/cm.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['ta'] == 1) $output .= '<img title="' . __( 'Twilight Arbor', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/ta.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['se'] == 1) $output .= '<img title="' . __( 'Sorrow\'s Embrace', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/se.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['cof'] == 1) $output .= '<img title="' . __( 'Citadel of Flame', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/cof.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['hotw'] == 1) $output .= '<img title="' . __( 'Honor of the Waves', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/hotw.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['coe'] == 1) $output .= '<img title="' . __( 'Crucible of Eternity', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/coe.png" class="gw2chars_dungeonpic" /> ';
+                        if ($dungeons['arah'] == 1) $output .= '<img title="' . __( 'Arah', 'gw2chars' ) . '" src="' . plugin_dir_url( __FILE__ ) . 'pics/dungeons/arah.png" class="gw2chars_dungeonpic" /> ';
+                    }
                 }
 		if ( strlen( $char->teaser ) > 2 ) {
 			$output .= '<br />'."\n".'<em>»' . esc_html( $char->teaser ) . '«</em>';
