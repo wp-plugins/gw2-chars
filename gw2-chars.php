@@ -2,7 +2,7 @@
 /*
 Plugin Name: Guild Wars 2 Character List
 Description: Users can manage their own Guild Wars 2 characters. A list of all characters can be integrated in any post or page.
-Version: 1.1.1
+Version: 1.2.0
 Author: Arne
 License: GPL3
 */
@@ -39,11 +39,28 @@ function gw2chars_shortcode( $attributes ) {
 	$table_name = $wpdb->prefix . 'gw2chars';
 	$output = "";
 	
-	$chars = $wpdb->get_results( "
+        extract( shortcode_atts( array(
+            'who' => 'all',
+	), $attributes ) );
+        
+	if ( $who == "all" ) {
+		$chars = $wpdb->get_results( "
 		SELECT id, user_id, name, picture_file, race, profession, crafting1, crafting2, fractals, dungeons, teaser
 		FROM $table_name
 		ORDER BY user_id ASC, name ASC
-	" );
+		" );
+	} else {
+		/* Predetermine which user_id is assigned to the transmitted user (shortcode attribute "who"). */
+		$current_user_id = $wpdb->get_var( "SELECT id FROM $wpdb->users WHERE user_login = '$who'" );
+		
+		/* Get this specific user's characters. */
+		$chars = $wpdb->get_results( "
+		SELECT id, user_id, name, picture_file, race, profession, crafting1, crafting2, fractals, dungeons, teaser
+		FROM $table_name
+		WHERE user_id = $current_user_id
+		ORDER BY user_id ASC, name ASC
+		" );
+	}
 
 	$alternate = 1;
 	$last_uid = 0;
@@ -396,9 +413,11 @@ function gw2chars_page() {
 	<h1><?php _e( 'Manage my Characters', 'gw2chars' ); ?></h1>
 	<p><?php _e( 'On this page you can enter all your characters for the list of all guild members.', 'gw2chars' ); ?></p>
 <?php
+        // user_level deprecated...
 	if ( $user_level >= 7 ) {
 		//
-		echo '<p>' . sprintf( __( 'To insert the list on a page or an article enter the shortcode %s.', 'gw2chars' ), '<code>[gw2chars]</code>' ) . '</p>' . "\n";
+		echo '<p>' . sprintf( __( 'To insert the list on a page or an article enter the shortcode %s.', 'gw2chars' ), '<code>[gw2chars]</code>' ) . '<br />' . "\n";
+                echo sprintf( __( 'To insert the list of all characters assigned to a single user use %s.', 'gw2chars' ), '<code>[gw2chars who=\'user_login\']</code>' ) . '</p>' . "\n";
 		if ( isset( $_POST['gw2chars_view_all'] ) ) $_SESSION["gw2chars-viewall"] = true;
 		if ( isset( $_POST['gw2chars_view_mine'] ) ) $_SESSION["gw2chars-viewall"] = false;
 		if ( $_SESSION["gw2chars-viewall"] == false) {

@@ -1,18 +1,18 @@
-# Copyright (C) 2012 Guild Wars 2 Character List
+# Copyright (C) 2013 Guild Wars 2 Character List
 # This file is distributed under the same license as the Guild Wars 2 Character List package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Guild Wars 2 Character List 1.0\n"
+"Project-Id-Version: Guild Wars 2 Character List 1.1.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/gw2-chars\n"
-"POT-Creation-Date: 2012-12-14 11:24:15+00:00\n"
+"POT-Creation-Date: 2013-04-01 11:02:40+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: gw2-chars.php:29 gw2-chars.php:394
+#: gw2-chars.php:29 gw2-chars.php:413
 msgid "Manage my Characters"
 msgstr ""
 
@@ -20,269 +20,273 @@ msgstr ""
 msgid "My Chars"
 msgstr ""
 
-#: gw2-chars.php:139 gw2-chars.php:468
+#: gw2-chars.php:156 gw2-chars.php:488
 msgid "and"
 msgstr ""
 
-#: gw2-chars.php:142 gw2-chars.php:470
+#: gw2-chars.php:159 gw2-chars.php:490
 msgid "no crafting skills"
 msgstr ""
 
-#: gw2-chars.php:146
+#: gw2-chars.php:163
 msgid "Fractals Level"
 msgstr ""
 
-#: gw2-chars.php:150 gw2-chars.php:596
+#: gw2-chars.php:169 gw2-chars.php:616
 msgid "Story Mode Completed"
 msgstr ""
 
-#: gw2-chars.php:152 gw2-chars.php:157 gw2-chars.php:598
+#: gw2-chars.php:170 gw2-chars.php:618
 msgid "Ascalonian Catacombs"
 msgstr ""
 
-#: gw2-chars.php:153 gw2-chars.php:599
+#: gw2-chars.php:171 gw2-chars.php:619
 msgid "Caudecus's Manor"
 msgstr ""
 
-#: gw2-chars.php:154 gw2-chars.php:600
+#: gw2-chars.php:172 gw2-chars.php:620
 msgid "Twilight Arbor"
 msgstr ""
 
-#: gw2-chars.php:155 gw2-chars.php:601
+#: gw2-chars.php:173 gw2-chars.php:621
 msgid "Sorrow's Embrace"
 msgstr ""
 
-#: gw2-chars.php:156 gw2-chars.php:602
+#: gw2-chars.php:174 gw2-chars.php:622
 msgid "Citadel of Flame"
 msgstr ""
 
-#: gw2-chars.php:158 gw2-chars.php:604
+#: gw2-chars.php:175 gw2-chars.php:623
+msgid "Honor of the Waves"
+msgstr ""
+
+#: gw2-chars.php:176 gw2-chars.php:624
 msgid "Crucible of Eternity"
 msgstr ""
 
-#: gw2-chars.php:159 gw2-chars.php:605
+#: gw2-chars.php:177 gw2-chars.php:625
 msgid "Arah"
 msgstr ""
 
-#: gw2-chars.php:220 gw2-chars.php:295
+#: gw2-chars.php:239 gw2-chars.php:314
 msgid "Name can't be left blank."
 msgstr ""
 
-#: gw2-chars.php:244
+#: gw2-chars.php:263
 msgid "Character added."
 msgstr ""
 
-#: gw2-chars.php:335
+#: gw2-chars.php:354
 msgid "Character edited."
 msgstr ""
 
-#: gw2-chars.php:359
+#: gw2-chars.php:378
 msgid "Nothing to delete."
 msgstr ""
 
-#: gw2-chars.php:383
+#: gw2-chars.php:402
 msgid "Deleted selected Characters."
 msgstr ""
 
-#: gw2-chars.php:395
+#: gw2-chars.php:414
 msgid ""
 "On this page you can enter all your characters for the list of all guild "
 "members."
 msgstr ""
 
-#: gw2-chars.php:399
+#: gw2-chars.php:418
 msgid "To insert the list on a page or an article enter the shortcode %s."
 msgstr ""
 
-#: gw2-chars.php:403
+#: gw2-chars.php:419
+msgid "To insert the list of all characters assigned to a single user use %s."
+msgstr ""
+
+#: gw2-chars.php:423
 msgid "view all"
 msgstr ""
 
-#: gw2-chars.php:405
+#: gw2-chars.php:425
 msgid "view just mine"
 msgstr ""
 
-#: gw2-chars.php:414
+#: gw2-chars.php:434
 msgid "Picture"
 msgstr ""
 
-#: gw2-chars.php:415
+#: gw2-chars.php:435
 msgid "Details"
 msgstr ""
 
-#: gw2-chars.php:453
+#: gw2-chars.php:473
 msgid "User doesn't exist!"
 msgstr ""
 
-#: gw2-chars.php:475
+#: gw2-chars.php:495
 msgid "hasn't been doing fractals so far"
 msgstr ""
 
-#: gw2-chars.php:477
+#: gw2-chars.php:497
 msgid "Can enter fractals level"
 msgstr ""
 
-#: gw2-chars.php:485
+#: gw2-chars.php:505
 msgid "edit"
 msgstr ""
 
-#: gw2-chars.php:494
+#: gw2-chars.php:514
 msgid "Delete selected"
 msgstr ""
 
-#: gw2-chars.php:507
+#: gw2-chars.php:527
 msgid "Edit Character"
 msgstr ""
 
-#: gw2-chars.php:523
+#: gw2-chars.php:543
 msgid "Add New Character"
 msgstr ""
 
-#: gw2-chars.php:531
+#: gw2-chars.php:551
 msgid "Name"
 msgstr ""
 
-#: gw2-chars.php:556
+#: gw2-chars.php:576
 msgid "Race"
 msgstr ""
 
-#: gw2-chars.php:565
+#: gw2-chars.php:585
 msgid "Profession"
 msgstr ""
 
-#: gw2-chars.php:574
+#: gw2-chars.php:594
 msgid "First Crafting Skill"
 msgstr ""
 
-#: gw2-chars.php:583
+#: gw2-chars.php:603
 msgid "Second Crafting Skill"
 msgstr ""
 
-#: gw2-chars.php:592
+#: gw2-chars.php:612
 msgid "Ready to do fractals level"
 msgstr ""
 
-#: gw2-chars.php:603
-msgid "Honor of the Waves"
-msgstr ""
-
-#: gw2-chars.php:609
+#: gw2-chars.php:629
 msgid "Upload Picture"
 msgstr ""
 
-#: gw2-chars.php:616
+#: gw2-chars.php:636
 msgid "delete old picture"
 msgstr ""
 
-#: gw2-chars.php:624
+#: gw2-chars.php:644
 msgid "Short Phrase"
 msgstr ""
 
-#: gw2-chars.php:631
+#: gw2-chars.php:651
 msgid "Change"
 msgstr ""
 
-#: gw2-chars.php:633
+#: gw2-chars.php:653
 msgid "Save"
 msgstr ""
 
-#: gw2-chars.php:705
+#: gw2-chars.php:725
 msgid "Asura"
 msgstr ""
 
-#: gw2-chars.php:708
+#: gw2-chars.php:728
 msgid "Charr"
 msgstr ""
 
-#: gw2-chars.php:711
+#: gw2-chars.php:731
 msgid "Human"
 msgstr ""
 
-#: gw2-chars.php:714
+#: gw2-chars.php:734
 msgid "Norn"
 msgstr ""
 
-#: gw2-chars.php:717
+#: gw2-chars.php:737
 msgid "Sylvari"
 msgstr ""
 
-#: gw2-chars.php:720
+#: gw2-chars.php:740
 msgid "unknown race"
 msgstr ""
 
-#: gw2-chars.php:727
+#: gw2-chars.php:747
 msgid "Guardian"
 msgstr ""
 
-#: gw2-chars.php:730
+#: gw2-chars.php:750
 msgid "Warrior"
 msgstr ""
 
-#: gw2-chars.php:733
+#: gw2-chars.php:753
 msgid "Engineer"
 msgstr ""
 
-#: gw2-chars.php:736
+#: gw2-chars.php:756
 msgid "Ranger"
 msgstr ""
 
-#: gw2-chars.php:739
+#: gw2-chars.php:759
 msgid "Thief"
 msgstr ""
 
-#: gw2-chars.php:742
+#: gw2-chars.php:762
 msgid "Elementalist"
 msgstr ""
 
-#: gw2-chars.php:745
+#: gw2-chars.php:765
 msgid "Mesmer"
 msgstr ""
 
-#: gw2-chars.php:748
+#: gw2-chars.php:768
 msgid "Necromancer"
 msgstr ""
 
-#: gw2-chars.php:751
+#: gw2-chars.php:771
 msgid "unknown profession"
 msgstr ""
 
-#: gw2-chars.php:758
+#: gw2-chars.php:778
 msgid "I don't craft"
 msgstr ""
 
-#: gw2-chars.php:761
+#: gw2-chars.php:781
 msgid "Armorsmith"
 msgstr ""
 
-#: gw2-chars.php:764
+#: gw2-chars.php:784
 msgid "Artificer"
 msgstr ""
 
-#: gw2-chars.php:767
+#: gw2-chars.php:787
 msgid "Chef"
 msgstr ""
 
-#: gw2-chars.php:770
+#: gw2-chars.php:790
 msgid "Huntsman"
 msgstr ""
 
-#: gw2-chars.php:773
+#: gw2-chars.php:793
 msgid "Jeweler"
 msgstr ""
 
-#: gw2-chars.php:776
+#: gw2-chars.php:796
 msgid "Leatherworker"
 msgstr ""
 
-#: gw2-chars.php:779
+#: gw2-chars.php:799
 msgid "Tailor"
 msgstr ""
 
-#: gw2-chars.php:782
+#: gw2-chars.php:802
 msgid "Weaponsmith"
 msgstr ""
 
-#: gw2-chars.php:785
+#: gw2-chars.php:805
 msgid "unknown crafting skill"
 msgstr ""
 
