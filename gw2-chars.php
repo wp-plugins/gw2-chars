@@ -12,7 +12,7 @@ $gw2chars_database_version = 1;
 
 add_action ( 'admin_menu', 'gw2chars_menu' );
 register_activation_hook(__FILE__,'gw2chars_create_database');
-if (get_site_option('gw2chars_database_version') != gw2chars_database_version) gw2chars_create_database();
+if (get_site_option('gw2chars_database_version') != $gw2chars_database_version) gw2chars_create_database();
 add_shortcode( 'gw2chars', 'gw2chars_shortcode' );
 add_action('wp_head', 'gw2chars_css');
 register_uninstall_hook( __FILE__, 'gw2chars_uninstall' );
