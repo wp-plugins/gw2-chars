@@ -2,7 +2,7 @@
 /*
 Plugin Name: Guild Wars 2 Character List
 Description: Users can manage their own Guild Wars 2 characters. A list of all characters can be integrated in any post or page.
-Version: 1.2.0
+Version: 1.2.1
 Author: Arne
 License: GPL3
 */
