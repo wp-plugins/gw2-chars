@@ -17,7 +17,7 @@ add_shortcode( 'gw2chars', 'gw2chars_shortcode' );
 add_action('wp_head', 'gw2chars_css');
 register_uninstall_hook( __FILE__, 'gw2chars_uninstall' );
 
-load_plugin_textdomain( 'gw2chars', false, basename( dirname( __FILE__ ) ) . '/languages' );
+load_plugin_textdomain( 'gw2chars', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 
 
 function gw2chars_css() {
