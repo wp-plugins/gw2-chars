@@ -3,7 +3,7 @@ Contributors: arnefi
 Donate link: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=9G7Q8VJ5YVJYU&item_name=GW2-Chars&cmd=_s-xclick
 Tags: guild wars 2, char, character, game, guild
 Requires at least: 3.5
-Tested up to: 3.6
+Tested up to: 3.7
 Stable tag: 1.2.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl
